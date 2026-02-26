@@ -1,0 +1,156 @@
+footer {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2b457;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+footer nav {
+    width: 100%;
+}
+
+footer ol {
+    padding: 0;
+    background-color: #f2b557;
+}
+
+footer li {
+    display: inline;
+    margin-left: 16rem;
+
+    background-color: #f2b557;
+}
+
+footer a {
+    color: #c1521e;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+
+/* html {
+    font-size: min(2vw, 18px);
+}
+
+body {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f2b457;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+nav {
+    font-size: 1rem;
+    width: 100%;
+}
+
+footer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+    font-size: 1rem;
+}
+
+body a {
+    color: #c1521e;
+}
+
+ol {
+    padding: 0;
+    background-color: #f2b557;
+    list-style-type: none;
+}
+
+#top {
+    position: fixed;
+    width: 100%;
+
+}
+
+#top li {
+    display: inline;
+    margin-left: 14rem;
+
+    background-color: #f2b557;
+} */
+
+/* O side sobrepõem-se ao conteúdo quando :hover.
+Muda o width e a opacidade.  */
+
+
+/* #side {
+    opacity: 100%;
+    position: fixed;
+    margin-top: 0;
+    padding-top: 3rem;
+
+    background-color: #c1521e;
+    transition: 0.5s;
+
+    color: #c1521e52(255, 218, 185, 0);
+
+
+    width: 100%;
+    height: 2vw;
+}
+
+#side a {
+    color: inherit;
+
+}
+
+
+#side li {
+    padding: 0.5rem;
+}
+
+
+
+@media (min-width: 600px) {
+
+    #side {
+        display: none;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #top {
+        display: none
+    }
+
+    footer {
+        margin-top: 0rem;
+        margin-left: 1.5rem;
+    }
+
+    #side:hover {
+        /* opacity: 100%; */
+/*background-color: #c1521e3f(0, 0, 0, 0.317);
+width: 8rem;
+
+color: rgb(255, 218, 185);
+
+}
+
+
+}*/

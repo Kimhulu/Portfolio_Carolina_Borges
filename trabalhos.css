@@ -1,0 +1,166 @@
+body {
+    background-color: #f2b557;
+}
+
+nav li {
+    list-style-type: none;
+    margin: -1rem;
+    margin-left: -3rem;
+    padding: 0.5rem;
+    background-color: #9197AA;
+    width: 4rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    display: block;
+    transition:
+        width 2s,
+        height 2s,
+        background-color 2s,
+        rotate 2s;
+}
+
+nav img:hover {
+    rotate: 360deg;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Tenor Sans", arial, sans-serif;
+    color: #c1521e;
+    font-size: 5rem;
+
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+}
+
+
+#gal {
+    line-height: 0;
+
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+#gal img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    margin: px;
+}
+
+/* .titulo-telemovel {
+    display: none;
+} */
+
+
+@media (max-width: 1200px) {
+    #gal {
+        line-height: 0;
+
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gal {
+        line-height: 0;
+
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 800px) {
+    #gal {
+        line-height: 0;
+
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+
+    .titulo-telemovel {
+        display: block;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Tenor Sans", arial, sans-serif;
+        color: #C1521E;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    nav ol {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    nav img {
+        width: 45px;
+        height: 45px;
+        opacity: 0.9;
+    }
+
+    li {
+        background-color: #9197AA;
+        width: 3.5rem;
+        padding: 0.4rem;
+
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    #gal {
+        line-height: 0;
+
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+    .titulo-telemovel {
+        display: block;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Tenor Sans", arial, sans-serif;
+        color: #C1521E;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    nav ol {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    nav img {
+        width: 45px;
+        height: 45px;
+        opacity: 0.9;
+    }
+
+    li {
+        background-color: #9197AA;
+        width: 3.5rem;
+        padding: 0.4rem;
+
+        border-radius: 10px;
+    }
+}

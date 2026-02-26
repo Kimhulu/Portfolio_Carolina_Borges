@@ -1,0 +1,187 @@
+body {
+    background-color: #f2b557;
+}
+
+li {
+    list-style-type: none;
+    margin: -1rem;
+    margin-left: -3rem;
+    padding: 0.5rem;
+    background-color: #9197AA;
+    width: 4rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Tenor Sans", arial, sans-serif;
+    color: #c1521e;
+    font-size: 5rem;
+
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+}
+
+
+#gal {
+    line-height: 0;
+
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 3;
+    -moz-column-gap: 0px;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+
+#gal-deriva {
+    margin-bottom: 8rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+#gal-up {
+    margin-bottom: 8rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+
+.img-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.img-button-dois {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.img-button:hover {
+    transform: scale(1.05);
+}
+
+.img-button-dois:hover {
+    transform: scale(1.05);
+}
+
+.img-button img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.img-button-dois img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 1500px) {
+    #gal {
+        line-height: 0;
+
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
+@media (max-width: 800px) {
+    #gal {
+        line-height: 0;
+
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+    .titulo-telemovel {
+        display: block;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Tenor Sans", arial, sans-serif;
+        color: #C1521E;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    nav ol {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    nav img {
+        width: 45px;
+        height: 45px;
+        opacity: 0.9;
+    }
+
+    li {
+        background-color: #9197AA;
+        width: 3.5rem;
+        padding: 0.4rem;
+
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    #gal {
+        line-height: 0;
+
+        margin-top: 5rem;
+
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+
+    .titulo-telemovel {
+        display: block;
+        text-align: center;
+        font-size: 0.5rem;
+        font-family: "Tenor Sans", arial, sans-serif;
+        color: #C1521E;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    nav ol {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 1rem;
+    }
+
+    nav img {
+        width: 45px;
+        height: 45px;
+        opacity: 0.9;
+    }
+
+    li {
+        background-color: #9197AA;
+        width: 3.5rem;
+        padding: 0.4rem;
+
+        border-radius: 10px;
+    }
+}
